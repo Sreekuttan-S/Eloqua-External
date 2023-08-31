@@ -1,0 +1,57 @@
+.card-slider {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-slider-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+
+.card {
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card.active {
+    transform: scale(1.1);
+}
+
+.card-slider-button {
+    margin-top: 20px;
+}
+
+.card-slider-press {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-slider-press:hover {
+    background-color: #555;
+}
+
+
+/* Footer Css */
+.Footer-body {
+    display: flex;
+    padding: 30px;
+    gap: 350px;
+}
+
+.Footer {
+    background-color: aliceblue;
+}
+
+.Footer-social-logos{
+    display: flex;
+    gap: 35px;
+}
